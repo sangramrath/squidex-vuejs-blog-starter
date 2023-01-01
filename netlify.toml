@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+
+[template.environment]
+  VUE_APP_SQUIDEX_URL= "Enter Squidex URL"
+  VUE_APP_SQUIDEX_APPNAME= "Enter Squidex app name"
+  VUE_APP_SQUIDEX_CLIENTID= "Enter Client ID for the app"
+  VUE_APP_SQUIDEX_CLIENTSECRET= "Enter Client Secret for the app"
